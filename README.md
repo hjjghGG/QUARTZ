@@ -4,7 +4,7 @@ QUARTZ is a novel and memory-efficient sketch for real-time quantile estimation 
 
 ## Getting Started
 --------------------------------
-Tested on Linu.
+Tested on Linux.
 You need CMake 3.16 or higher and build tools installed.
 
 To compile QUARTZ algorithm:
