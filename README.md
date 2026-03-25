@@ -1,4 +1,4 @@
-# QUARTZ
+QUARTZ
 ===================
 QUARTZ a novel and memory-efficient sketch for real-time quantile estimation of persistent items. Intuitively, it identifies candidate persistent items using a bucket-cell multi-level structure, and then employs an associated competitive quantile sketch to profile their value distributions.
 
