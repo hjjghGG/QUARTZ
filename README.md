@@ -19,7 +19,7 @@ make -j$(nproc)
  - **theta** - Bucket-cell size parameter.
  - **alpha** - Estimate accuracy parameter.
  - **max buckets** - Max bucket size for all DDSketches.
- - **type** - 1 for memory-THP test;
- - 2 for persistence filter test;
- - 3 for tail letency quantile test;
- - 4 for batched test.
+ - **type** -- 1 for memory-THP test;
+ -- 2 for persistence filter test;
+ -- 3 for tail letency quantile test;
+ -- 4 for batched test.
