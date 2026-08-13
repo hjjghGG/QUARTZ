@@ -24,12 +24,12 @@ make -j$(nproc)
  -- 3 for tail letency quantile test;
  -- 4 for batched test.
 
-#### module enable/disable switch and parameter tuning
- - **RS_IN_CELL** - enable/disable Reservoir Sample in Cell optimization.
- - **ORG_COLLAPSE** - enable/disable original collapse strategy instead of the adaptive collapse strategy.
- - **KCU_CELL_SIZE** - number of cells in a bucket (excluding the champion).
- - **KCU_EPOCH_SIZE** - time window size.
- - **KCU_epsilon** -- epsilon.
- - **KCU_epsilon2** -- miu.
+#### Module enable/disable switch and parameter tuning
+ - **RS_IN_CELL** - Enable/disable Reservoir Sample in Cell optimization.
+ - **ORG_COLLAPSE** - Enable/disable original collapse strategy instead of the adaptive collapse strategy.
+ - **KCU_CELL_SIZE** - Number of cells in a bucket (excluding the champion).
+ - **KCU_EPOCH_SIZE** - Time window size.
+ - **KCU_epsilon** -- Epsilon.
+ - **KCU_epsilon2** -- Miu.
  - Replacing the KC_pu file with KC_pu_improved and modifying the relevant CMakeLists.txt enables Shared Persistence Filter.
  
